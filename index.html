@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>决策支持应用</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/jquery1.42.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js" ></script>
+		<script type="text/javascript" src="js/main.js" ></script>
+	</head>
+	<body>
+		<div class="jc_header">
+			<h1 class="jc_logo">决策支持应用</h1>
+			<div class="jc_query_box border_box">
+				<input class="jc_query_input border_box" type="text" placeholder="请输入文字快捷搜索">
+				<a class="jc_query_btn" href="#">搜索</a>
+			</div>
+		</div>
+		<div class="jc_view">
+			<div class="jc_aside">
+				<ul class="js_aside_nav">
+					<li><a class="active" href="#"><span><img src="img/nav1.png"></span><b>城市运行图</b></a></li>
+					<li><a href="#"><span><img src="img/nav2.png"></span><b>重点项目专题</b></a></li>
+					<li><a href="#"><span><img src="img/nav3.png"></span><b>环境专题</b></a></li>
+					<li><a href="#"><span><img src="img/nav4.png"></span><b>企业专题</b></a></li>
+					<li><a href="#"><span><img src="img/nav5.png"></span><b>经济专题</b></a></li>
+				</ul>
+			</div>
+		    <div class="jc_main">
+		    	<div class="jc_map"><img src="img/map.png"></div>
+		    	<div class="jc_pop main_left move">
+		    		<div class="jc_handle_left jc_handle"></div>
+		    		<div class="jc_card_box">
+		    			<div class="jc_card_hd">
+		    				所有分类：
+		    				<div class="jc_card_btn_ct" id="cardHd">
+
+		    				</div>
+		    			</div>
+		    			<div class="jc_card_bd">
+		    				<dl class="jc_card_list">
+		    					<dt>区域：</dt>
+		    					<dd><a class="card" href="#">铜陵县</a><a class="card" href="#">铜官山区</a><a class="card" href="#">狮子山区</a><a class="card" href="#">郊区</a><a class="card" href="#">铜陵经开区</a><a class="card" href="#">市示范园区</a></dd>
+		    				</dl>
+		    				<dl class="jc_card_list">
+		    					<dt>阶段：</dt>
+		    					<dd><a class="card" href="#">新开工</a><a class="card" href="#">续建</a></dd>
+		    				</dl>
+		    				<dl class="jc_card_list">
+		    					<dt>项目功能：</dt>
+		    					<dd><a class="card" href="#">工业</a><a class="card" href="#">交通及城乡基础设施</a><a class="card" href="#">社会事业</a><a class="card" href="#">服务业</a><a class="card" href="#">房地产开发</a><a class="card" href="#">农业水利</a></dd>
+		    				</dl>
+		    				<dl class="jc_card_list">
+		    					<dt>项目大小：</dt>
+		    					<dd class="size"><a class="card" href="#" readonly="true">1亿元一下</a><a class="card" href="#" readonly="true">1亿—5亿</a><a class="card" href="#" readonly="true">5亿-10亿</a><a class="card" href="#" readonly="true">10 亿以上</a>
+		    						<p class="fr free_check">自定义<input class="jc_input_mini blue_border" type="text">亿—<input class="jc_input_mini blue_border" type="text">亿</p>
+		    					</dd>
+		    				</dl>
+		    			</div>
+		    		</div>
+		    		<div class="list_wrap">
+		    			<dl class="jc_it_list">
+			    			<dt>
+			    				<i class="num">1</i>
+			    				<a href="#">铜陵三期合作招商项目园 -详情</a>
+			    			</dt>
+			    			<dd>
+			    				<p>总投资：5.39亿  计划</p>
+			    				<p>铜陵铜官山区长江中路和义....</p>
+			    				<span class="jc_img_wrap"><img src="img/pic01.jpg"></span>
+			    			</dd>
+			    		</dl>
+			    		<dl class="jc_it_list">
+			    			<dt>
+			    				<i class="num">2</i>
+			    				<a href="#">铜陵三期合作招商项目园 -详情</a>
+			    			</dt>
+			    			<dd>
+			    				<p>总投资：5.39亿  计划</p>
+			    				<p>铜陵铜官山区长江中路和义....</p>
+			    				<span class="jc_img_wrap"><img src="img/pic01.jpg"></span>
+			    			</dd>
+			    		</dl>
+			    		<dl class="jc_it_list">
+			    			<dt>
+			    				<i class="num">3</i>
+			    				<a href="#">铜陵三期合作招商项目园 -详情</a>
+			    			</dt>
+			    			<dd>
+			    				<p>总投资：5.39亿  计划</p>
+			    				<p>铜陵铜官山区长江中路和义....</p>
+			    				<span class="jc_img_wrap"><img src="img/pic01.jpg"></span>
+			    			</dd>
+			    		</dl>
+			    		<dl class="jc_it_list">
+			    			<dt>
+			    				<i class="num">4</i>
+			    				<a href="#">铜陵三期合作招商项目园 -详情</a>
+			    			</dt>
+			    			<dd>
+			    				<p>总投资：5.39亿  计划</p>
+			    				<p>铜陵铜官山区长江中路和义....</p>
+			    				<span class="jc_img_wrap"><img src="img/pic01.jpg"></span>
+			    			</dd>
+			    		</dl>
+			    		<dl class="jc_it_list">
+			    			<dt>
+			    				<i class="num">5</i>
+			    				<a href="#">铜陵三期合作招商项目园 -详情</a>
+			    			</dt>
+			    			<dd>
+			    				<p>总投资：5.39亿  计划</p>
+			    				<p>铜陵铜官山区长江中路和义....</p>
+			    				<span class="jc_img_wrap"><img src="img/pic01.jpg"></span>
+			    			</dd>
+			    		</dl>
+		    		</div>
+		    		<p class="pages">
+						<a class="pre pages_com" href="#">上一页</a>
+						<span>1/36</span>
+						<a class="next pages_com" href="#">下一页</a>
+					</p>
+		    	</div>
+		    	<div class="jc_pop main_right hide move">
+		    		<div class="jc_handle_right jc_handle"></div>
+		    		<div class="m_20">
+		    			<table class="detail">
+			    			<tr>
+			    				<td width="6%"><i class="num">1</i></td>
+			    				<td width="70%"><a href="#">铜陵三期合作招商项目园</a></td>
+			    				<td rowspan="3" align="right"><img src="img/img01.jpg"></td>
+			    			</tr>
+			    			<tr>
+			    				<td></td>
+			    				<td>地址：铜陵铜官山区长江中路和义....</td>
+			    			</tr>
+			    			<tr>
+			    				<td></td>
+			    				<td>总投资：5.39亿</td>
+			    			</tr>
+			    			<tr>
+			    				<td></td>
+			    				<td colspan="2">
+			    					<p>当年计划总投资：6.5亿</p>
+			    					<p>时序进度:<span class="holder"></span>较时序进度比：<span class="holder"></span></p>
+			    					<p>已投资金额：<span class="holder">5亿</span>金额总比：<span class="holder"></span></p>
+			    					<p>形象进度：</p>
+			    				</td>
+			    			</tr>
+			    		</table>
+			    		<div class="jc_progress_wrap">
+			    			<ul class="jc_progress finished">
+			    				<li class="color1">
+			    					<div class="p_btn left">
+			    						<i class="circle"></i>
+			    						<span>发起</span>
+			    						<div class="jc_p_pop">
+			    							<h2>发起：</h2>
+			    							<p>发起时间：2015-06-15</p>
+			    						</div>
+			    					</div>
+			    					<div class="p_btn right">
+			    						<i class="circle"></i>
+			    						<span>审核</span>
+			    						<div class="jc_p_pop">
+			    							<h2>发起：</h2>
+			    							<p>发起时间：2015-06-15</p>
+			    						</div>
+			    					</div>
+			    				</li>
+			    				<li class="color1">
+			    					<div class="p_btn right">
+			    						<i class="circle"></i>
+			    						<span>募款</span>
+			    						<div class="jc_p_pop">
+			    							<h2>发起：</h2>
+			    							<p>发起时间：2015-06-15</p>
+			    						</div>
+			    					</div>
+			    				</li>
+			    				<li class="color1 doing">
+			    					<div class="p_btn right">
+			    						<i class="circle"></i>
+			    						<span>执行</span>
+			    						<div class="jc_p_pop">
+			    							<h2>发起：</h2>
+			    							<p>发起时间：2015-06-15</p>
+			    						</div>
+			    					</div>
+			    				</li>
+			    				<li>
+			    					<div class="p_btn right last">
+			    						<i class="circle"></i>
+			    						<span>结项</span>
+			    						<div class="jc_p_pop">
+			    							<h2>发起：</h2>
+			    							<p>发起时间：2015-06-15</p>
+			    						</div>
+			    					</div>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    		<div class="ywb_time_wrap">
+							<dl>
+								<dt><span></span></dt>
+								<dd>
+									<div class="ywb_time_main">
+										<h2>2015-08-10</h2>
+										<p>收集什么什么没事没事没事</p>
+										<p>规划布局什么什么</p>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span></span></dt>
+								<dd>
+									<div class="ywb_time_main">
+										<h2>2015-08-10</h2>
+										<p>收集什么什么没事没事没事</p>
+										<p>规划布局什么什么</p>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span></span></dt>
+								<dd>
+									<div class="ywb_time_main">
+										<h2>2015-08-10</h2>
+										<p>收集什么什么没事没事没事</p>
+										<p>规划布局什么什么</p>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span></span></dt>
+								<dd>
+									<div class="ywb_time_main">
+										<h2>2015-08-10</h2>
+										<p>收集什么什么没事没事没事</p>
+										<p>规划布局什么什么</p>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span></span></dt>
+								<dd>
+									<div class="ywb_time_main">
+										<h2>2015-08-10</h2>
+										<p>收集什么什么没事没事没事</p>
+										<p>规划布局什么什么</p>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span></span></dt>
+								<dd>
+									<div class="ywb_time_main">
+										<h2>2015-08-10</h2>
+										<p>收集什么什么没事没事没事</p>
+										<p>规划布局什么什么</p>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span></span></dt>
+								<dd>
+									<div class="ywb_time_main">
+										<h2>2015-08-10</h2>
+										<p>收集什么什么没事没事没事</p>
+										<p>规划布局什么什么</p>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<p class="alive_video"><a class="alive_btn" href="#"><span>现场视频</span></a></p>
+		    		</div>
+		    	</div>
+		    	<div class="jc_pop main_bottom hide border_box move">
+		    		<div class="jc_handle_bottom jc_handle"></div>
+		    		<div class="picScroll-left">
+						<div class="hd">
+							<a class="next"></a>
+							<a class="prev"></a>
+						</div>
+						<div class="bd">
+							<ul class="picList">
+								<li>
+									<div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="img/pic1.jpg" /></a></div>
+								</li>
+								<li>
+									<div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="img/pic2.jpg" /></a></div>
+								</li>
+								<li>
+									<div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="img/pic3.jpg" /></a></div>
+								</li>
+								<li>
+									<div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="img/pic4.jpg" /></a></div>
+								</li>
+								<li>
+									<div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="img/pic5.jpg" /></a></div>
+								</li>
+								<li>
+									<div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="img/pic6.jpg" /></a></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+		    	</div>
+		    </div>
+		</div>
+	</body>
+</html>
